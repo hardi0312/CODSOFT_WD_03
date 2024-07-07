@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #feb54f, #00fed8); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#inputLabel {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
